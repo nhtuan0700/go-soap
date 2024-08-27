@@ -102,7 +102,4 @@ func main() {
 	}
 	fmt.Println("-----")
 	fmt.Printf("\n%+v\n", res)
-
-	var JST = time.FixedZone("Asia/Tokyo", 9*60*60)
-	fmt.Println(time.Now().In(JST).String())
 }
